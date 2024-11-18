@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Estilo para Botones -->
+    <style name="Bu.PMDMT2.Menu" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/pmdmt2_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Estilo para EditText -->
+    <style name="Tex.PMDMT2.EditText" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <item name="android:backgroundTint">@color/pmdmt2_primary</item>
+        <item name="android:textColor">@color/pmdmt2_text_primary</item>
+        <item name="android:hintTextColor">@color/pmdmt2_text_secondary</item>
+    </style>
+
+    <!-- Estilo para Texto Resaltado -->
+    <style name="Tex.PMDMT2.HighlightedText" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/pmdmt2_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Estilo para Nombre del Personaje (Texto en Grande) -->
+    <style name="Tex.PMDMT2.Name" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/pmdmt2_primary</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Estilo para Descripción del Personaje -->
+    <style name="Tex.PMDMT.Descri" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/pmdmt2_text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Estilo para ImageView -->
+    <style name="Im.PMDMT2.ImageView" parent="Widget.AppCompat.ImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:padding">8dp</item>
+
+    </style>
+
+</resources>

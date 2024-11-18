@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">PMDMT2</string>
+    <string name="no_mario">Mario</string>
+    <string name="ti_mario">Mario es un fontanero valiente y optimista con gorro rojo y bigote.</string>
+    <string name="ha_mario">Mario es equilibrado en velocidad y fuerza, puede lanzar bolas de fuego y volar brevemente.</string>
+    <string name="no_luigi">Luigi</string>
+    <string name="ti_luigi">Luigi es el hermano alto y tímido de Mario, con gorra verde y gran corazón.</string>
+    <string name="ha_luigi">Luigi salta más alto y es hábil cazando fantasmas con su Poltergust.</string>
+    <string name="no_peach">Peach</string>
+    <string name="ti_peach">Peach es la princesa amable del Reino Champiñón, con vestido rosa y corona.</string>
+    <string name="ha_peach">Peach puede flotar en el aire y usa poderes mágicos para atacar o protegerse.</string>
+    <string name="no_toad">Toad</string>
+    <string name="ti_toad">Toad es un asistente leal de Peach, reconocido por su cabeza de hongo.</string>
+    <string name="ha_toad">Toad es rápido, fuerte, y eficiente para recolectar objetos.</string>
+    <string name="bo_remenu">Volver a menú</string>
+
+
 </resources>

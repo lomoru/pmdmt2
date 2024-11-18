@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toad"
+        style="@style/Im.PMDMT2.ImageView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_toad"
+        style="@style/Tex.PMDMT2.Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ti_toad"
+        style="@style/Tex.PMDMT2.HighlightedText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ha_toad"
+        style="@style/Tex.PMDMT.Descri"/>
+
+    <!-- Botón para volver a menú -->
+    <Button
+        android:id="@+id/boretto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bo_remenu"
+        android:layout_marginTop="10dp"
+        style="@style/Bu.PMDMT2.Menu"/>
+
+
+</LinearLayout>

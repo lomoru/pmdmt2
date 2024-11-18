@@ -1,8 +1,30 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.PMDMT2" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Color Primario de la Aplicación -->
+        <item name="colorPrimary">@color/pmdmt2_primary</item>
+        <item name="colorPrimaryVariant">@color/pmdmt2_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Color Secundario -->
+        <item name="colorSecondary">@color/pmdmt2_secondary</item>
+        <item name="colorSecondaryVariant">@color/pmdmt2_secondary_variant</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Fondo -->
+        <item name="android:colorBackground">@color/pmdmt2_background</item>
+        <item name="colorOnBackground">@color/pmdmt2_text_primary</item>
+
+        <!-- Color de Superficie -->
+        <item name="colorSurface">@color/pmdmt2_surface</item>
+        <item name="colorOnSurface">@color/pmdmt2_text_secondary</item>
+
+        <!-- Configuración de texto -->
+        <item name="android:textColorPrimary">@color/pmdmt2_text_primary</item>
+        <item name="android:textColorSecondary">@color/pmdmt2_text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+
     </style>
 
     <style name="Theme.PMDMT2" parent="Base.Theme.PMDMT2" />
