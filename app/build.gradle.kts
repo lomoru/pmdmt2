@@ -32,10 +32,17 @@ android {
 
     buildFeatures{
         viewBinding=true
+        dataBinding=true
     }
 }
 
 dependencies {
+    implementation(libs.core.splashscreen)
+    implementation(libs.recyclerview)
+    implementation(libs.cardview)
+    implementation (libs.navigation.fragment.ktx)
+    implementation (libs.androidx.navigation.ui.ktx)
+
 
     implementation(libs.appcompat)
     implementation(libs.material)
